@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0a87760c-d40d-4733-ac7e-70581ac73735" name="Changes" comment="Added all classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompanyRental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyRental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Family.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrivateRental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrivateRental.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rental.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +23,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
