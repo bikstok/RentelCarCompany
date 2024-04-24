@@ -1,11 +1,10 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 public class Main {
-    ArrayList<Vehicle> Cars = new ArrayList<Vehicle>();
-    ArrayList<Rental> Costumers = new ArrayList<Rental>();
+    ArrayList<Vehicle> cars = new ArrayList<Vehicle>();
+    ArrayList<Rental> customers = new ArrayList<Rental>();
 
     public static void main(String[] args) {
-
         Scanner scan = new Scanner(System.in);
         boolean running = true;
 
@@ -23,7 +22,7 @@ public class Main {
 
             switch (choice) {
                 case 1:
-                    createCar(scan);
+                    createCar(scan); // Call createCar method from main object
                     break;
                 case 2:
                     //createCustomer(scan);
@@ -47,11 +46,7 @@ public class Main {
                     System.out.println("Invalid choice! Please enter a number between 1 and 7.");
             }
         }
-        }
     }
-
-    public static void createCar(scan) {
+    public void createCar(Scanner scan) {
     }
-
-
 }
