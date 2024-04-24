@@ -50,9 +50,9 @@ public class Main {
             }
         }
         }
-    }
 
-    public static void createCar(scan) {
+
+    public static void createCar(Scanner scan) {
     }
 
 
