@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a87760c-d40d-4733-ac7e-70581ac73735" name="Changes" comment="Added all classes">
+    <list default="true" id="0a87760c-d40d-4733-ac7e-70581ac73735" name="Changes" comment="Changed vehicle class to have all fields of cars. Outcommentet the 3 cars classes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Family.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Luxury.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luxury.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713859015884</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changed vehicle class to have all fields of cars. Outcommentet the 3 cars classes.">
+      <option name="closed" value="true" />
+      <created>1713946020144</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713946020144</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +124,7 @@
     <MESSAGE value="Added Vehicle Class and luxery class" />
     <MESSAGE value="Added all classes" />
     <MESSAGE value="Added fiels and constructers to all vehicle classes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added fiels and constructers to all vehicle classes." />
+    <MESSAGE value="Changed vehicle class to have all fields of cars. Outcommentet the 3 cars classes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed vehicle class to have all fields of cars. Outcommentet the 3 cars classes." />
   </component>
 </project>
