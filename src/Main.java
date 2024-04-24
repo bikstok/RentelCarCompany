@@ -21,6 +21,8 @@ public class Main {
             System.out.print("Enter your choice: ");
             int choice = scan.nextInt();
 
+
+
             switch (choice) {
                 case 1:
                     createCar(scan);

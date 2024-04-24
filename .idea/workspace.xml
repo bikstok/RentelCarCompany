@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a87760c-d40d-4733-ac7e-70581ac73735" name="Changes" comment="Added all classes">
+    <list default="true" id="0a87760c-d40d-4733-ac7e-70581ac73735" name="Changes" comment="Initialized getters in class Vehicle for every field.">
+      <change afterPath="$PROJECT_DIR$/src/Cars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Customers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RentalContracts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Family.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Luxury.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luxury.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,6 +73,8 @@
       <workItem from="1713859058553" duration="53000" />
       <workItem from="1713859119085" duration="58000" />
       <workItem from="1713859205870" duration="9000" />
+      <workItem from="1713950995567" duration="15000" />
+      <workItem from="1713951017648" duration="401000" />
     </task>
     <task id="LOCAL-00001" summary="Added Vehicle Class">
       <option name="closed" value="true" />
