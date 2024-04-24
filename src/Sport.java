@@ -1,4 +1,4 @@
-public class Sport extends Vehicle {
+/*public class Sport extends Vehicle {
 
     boolean spoiler;
     public Sport (String brand, String model, String fuelType, int registrationNumber,
@@ -10,4 +10,4 @@ public class Sport extends Vehicle {
 
         this.spoiler = spoiler;
     }
-}
+}*/

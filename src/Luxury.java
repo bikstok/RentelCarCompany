@@ -1,4 +1,4 @@
-public class Luxury extends Vehicle {
+/*public class Luxury extends Vehicle {
 
     int ccm;
 
@@ -11,4 +11,4 @@ public class Luxury extends Vehicle {
 
         this.ccm = ccm;
     }
-}
+}*/

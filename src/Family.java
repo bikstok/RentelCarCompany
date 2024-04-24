@@ -1,4 +1,4 @@
-public class Family extends Vehicle {
+/*public class Family extends Vehicle {
 
     int trunkLiters;
     public Family (String brand, String model, String fuelType, int registrationNumber,
@@ -12,4 +12,4 @@ public class Family extends Vehicle {
         this.trunkLiters = trunkLiters;
 
     }
-}
+}*/
