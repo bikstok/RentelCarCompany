@@ -6,7 +6,7 @@ public class Vehicle {
     private int firstRegistrationYearAndMonth;
     private int odometer;
     private boolean gear;
-    private String seats;
+    private int seats;
     private boolean aircon;
     private boolean cruiseControl;
     private int horsePower;
@@ -15,7 +15,7 @@ public class Vehicle {
     private int trunkLiters;
 
     public Vehicle (String brand, String model, String fuelType, int registrationNumber,
-                    int firstRegistrationYearAndMonth, int odometer, boolean gear, String seats,
+                    int firstRegistrationYearAndMonth, int odometer, boolean gear, int seats,
                     boolean aircon, boolean cruiseControl, int horsePower, boolean spoiler, int ccm, int trunkLiters)   {
         this.brand = brand;
         this.model = model;
@@ -49,7 +49,7 @@ public class Vehicle {
 
     public boolean isGear() { return gear; }
 
-    public String getSeats() { return seats; }
+    public int getSeats() { return seats; }
 
     public boolean isAircon() { return aircon; }
 
@@ -91,7 +91,7 @@ public class Vehicle {
         this.gear = gear;
     }
 
-    public void setSeats(String seats) {
+    public void setSeats(int seats) {
         this.seats = seats;
     }
 

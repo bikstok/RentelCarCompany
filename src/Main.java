@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 public class Main {
-    ArrayList<Vehicle> cars = new ArrayList<Vehicle>();
-    ArrayList<Rental> customers = new ArrayList<Rental>();
+    public static ArrayList<Vehicle> cars = new ArrayList<Vehicle>();
+    public static ArrayList<Rental> customers = new ArrayList<Rental>();
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -49,6 +49,18 @@ public class Main {
             }
         }
     }
-    public void createCar(Scanner scan) {
+    public static void createCar(Scanner scan) {
+        Vehicle car1 = new Vehicle("Volvo", "S60", "Petrol", 3045, 2020/10, 22000,
+                true , 5, true, true, 250, false, 2000, 450);
+        cars.add(car1);
+
+        Vehicle car2 = new Vehicle("Bolvo", "S60", "Petrol", 3045, 2020/10, 22000,
+                true , 5, true, true, 250, false, 2000, 450);
+        cars.add(car2);
+
+        for (Vehicle car : cars) {
+            System.out.println(car.getBrand());
+
+        }
     }
 }
