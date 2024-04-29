@@ -17,6 +17,30 @@ public class Rental {
             this.driverPostNumber = driverPostNumber;
     }
 
+    public String getDriverName() {
+        return driverName;
+    }
+
+    public String getDriverAddress() {
+        return driverAddress;
+    }
+
+    public String getDriverCityName() {
+        return driverCityName;
+    }
+
+    public String getDriverEmail() {
+        return driverEmail;
+    }
+
+    public int getDriverPhoneNumber() {
+        return driverPhoneNumber;
+    }
+
+    public int getDriverPostNumber() {
+        return driverPostNumber;
+    }
+
     public Rental () {
     }
 }
