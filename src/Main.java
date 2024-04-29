@@ -2,7 +2,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class Main {
     public static ArrayList<Vehicle> cars = new ArrayList<Vehicle>();
+
     public static ArrayList<Rental> customers = new ArrayList<Rental>();
+
+    public static ArrayList<CurrentRentedCars> rentedCars = new ArrayList<CurrentRentedCars>();
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -27,7 +30,7 @@ public class Main {
                     createCar(scan); // Call createCar method from main object
                     break;
                 case 2:
-                    //createCustomer(scan);
+                    createCustomer(scan);
                     break;
                 case 3:
                     //createRental(scan);
@@ -62,5 +65,26 @@ public class Main {
             System.out.println(car.getBrand());
 
         }
+    }
+
+    public static void createCustomer(Scanner scan) {
+        Rental customer1 = new Rental("Lars Jensen", "23 Havnegade", "Copenhagen", "lars.jensen@example.com", 45-12345678, 1000);
+        customers.add(customer1);
+
+        for (Rental customer : customers) {
+            System.out.println(customer.getDriverName());
+        }
+    }
+
+    public static void createRental (Scanner scan) {
+        int carIndex = 0;
+        int customerIndex = 1;
+
+        Vehicle rentedCar = cars.get(carIndex);
+        Rental rentingCustomer = customers.get(customerIndex);
+
+        CurrentRentedCars rentedContracts = new CurrentRentedCars(rentedCar, rentingCustomer);
+        rentedContracts.add(rentedCar)
+
     }
 }
