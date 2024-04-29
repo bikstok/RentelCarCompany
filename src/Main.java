@@ -1,3 +1,5 @@
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class Main {
@@ -7,7 +9,7 @@ public class Main {
 
     public static ArrayList<CurrentRentedCars> rentedCars = new ArrayList<CurrentRentedCars>();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
         Scanner scan = new Scanner(System.in);
         boolean running = true;
 
@@ -84,7 +86,51 @@ public class Main {
         Rental rentingCustomer = customers.get(customerIndex);
 
         CurrentRentedCars rentedContracts = new CurrentRentedCars(rentedCar, rentingCustomer);
-        rentedContracts.add(rentedCar)
+        rentedContracts.add(rentedCar);
+
+    }
+
+    public static void printCarsList ()  throws FileNotFoundException {
+        Scanner outPrintCars = new Scanner(new File("src/Cars"));
+
+        while (outPrintCars.hasNextLine()) {
+            String line = outPrintCars.nextLine();
+            Scanner scanLine = new Scanner(line);
+            String brand = scanLine.next();
+            String model = scanLine.next();
+            String fuelType = scanLine.next();
+            int regNumber = scanLine.nextInt();
+            String yAndM = scanLine.next();
+            int odometer = scanLine.nextInt();
+            String gear = scanLine.next();
+            int seats = scanLine.nextInt();
+            String aircon = scanLine.next();
+            String cruise = scanLine.next();
+            int horsePower = scanLine.nextInt();
+            String spoiler = scanLine.next();
+            int ccm = scanLine.nextInt();
+            int trunk = scanLine.nextInt();
+            System.out.println();
+            System.out.printf("""
+                        Brand:                            %s
+                        Model:                            %s
+                        Fuel type:                        %s
+                        Registration number:              %d
+                        Year/Month of first registration: %s
+                        Odometer:                         %d
+                        M / A gear:                       %s
+                        Number of seats:                  %d
+                        Aircon:                           %s
+                        Cruise control:                   %s
+                        Horsepower:                       %d
+                        Spoiler:                          %s
+                        Ccm:                              %d
+                        Trunk:                            %d liters\n""",
+                    brand, model, fuelType, regNumber, yAndM, odometer, gear,
+                    seats, aircon, cruise, horsePower, spoiler, ccm, trunk);
+
+            System.out.println();
+        }
 
     }
 }
