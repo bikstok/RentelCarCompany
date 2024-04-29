@@ -1,9 +1,9 @@
-public class CurrentRentedCars {
+public class RentedContract {
 
     public Vehicle vehicle;
     public Rental costumer;
 
-    public CurrentRentedCars(Vehicle vehicle, Rental costumer) {
+    public RentedContract(Vehicle vehicle, Rental costumer) {
         this.vehicle = vehicle;
         this.costumer = costumer;
     }

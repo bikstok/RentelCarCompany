@@ -119,3 +119,4 @@ public class Vehicle {
         this.trunkLiters = trunkLiters;
     }
 }
+

@@ -6,6 +6,7 @@ public class Rental {
     int driverPhoneNumber;
     int driverPostNumber;
 
+
     public Rental (String driverName, String driverAddress, String driverCityName,
                    String driverEmail, int driverPhoneNumber, int driverPostNumber) {
 
@@ -15,6 +16,14 @@ public class Rental {
             this.driverEmail = driverEmail;
             this.driverPhoneNumber = driverPhoneNumber;
             this.driverPostNumber = driverPostNumber;
+    }
+
+    public Vehicle rentedCar;
+
+
+
+    public void setRentedCar(Vehicle rentedCar) {
+        this.rentedCar = rentedCar;
     }
 
     public String getDriverName() {

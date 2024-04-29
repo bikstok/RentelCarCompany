@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a87760c-d40d-4733-ac7e-70581ac73735" name="Changes" comment="Initialized getters in class Vehicle for every field.">
+    <list default="true" id="0a87760c-d40d-4733-ac7e-70581ac73735" name="Changes" comment="added customers arraylist and new rental class">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CurrentRentedCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RentedContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
+    </list>
+    <list id="4b332338-3daa-4eb0-a269-d78b4e2c6e7b" name="Changes by madss" comment="">
       <change beforePath="$PROJECT_DIR$/src/Cars" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RentalContracts" beforeDir="false" afterPath="$PROJECT_DIR$/src/RentalContracts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +31,39 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/Vehicle.java">
+      <ranges>
+        <range start1="5" end1="6" start2="5" end2="6" changelist="4b332338-3daa-4eb0-a269-d78b4e2c6e7b" />
+        <range start1="17" end1="18" start2="17" end2="18" changelist="4b332338-3daa-4eb0-a269-d78b4e2c6e7b" />
+        <range start1="45" end1="46" start2="45" end2="46" changelist="4b332338-3daa-4eb0-a269-d78b4e2c6e7b" />
+        <range start1="81" end1="82" start2="81" end2="82" changelist="4b332338-3daa-4eb0-a269-d78b4e2c6e7b" />
+        <range start1="121" end1="121" start2="121" end2="123" changelist="0a87760c-d40d-4733-ac7e-70581ac73735" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/Main.java">
+      <ranges>
+        <range start1="0" end1="0" start2="0" end2="1" changelist="0a87760c-d40d-4733-ac7e-70581ac73735" />
+        <range start1="2" end1="2" start2="3" end2="4" changelist="0a87760c-d40d-4733-ac7e-70581ac73735" />
+        <range start1="7" end1="8" start2="9" end2="10" changelist="0a87760c-d40d-4733-ac7e-70581ac73735" />
+        <range start1="9" end1="10" start2="11" end2="12" changelist="0a87760c-d40d-4733-ac7e-70581ac73735" />
+        <range start1="19" end1="22" start2="21" end2="23" changelist="4b332338-3daa-4eb0-a269-d78b4e2c6e7b" />
+        <range start1="38" end1="39" start2="39" end2="40" changelist="4b332338-3daa-4eb0-a269-d78b4e2c6e7b" />
+        <range start1="41" end1="45" start2="42" end2="43" changelist="4b332338-3daa-4eb0-a269-d78b4e2c6e7b" />
+        <range start1="46" end1="47" start2="44" end2="45" changelist="4b332338-3daa-4eb0-a269-d78b4e2c6e7b" />
+        <range start1="54" end1="58" start2="52" end2="58" changelist="0a87760c-d40d-4733-ac7e-70581ac73735" />
+        <range start1="59" end1="62" start2="59" end2="60" changelist="0a87760c-d40d-4733-ac7e-70581ac73735" />
+        <range start1="63" end1="65" start2="61" end2="62" changelist="0a87760c-d40d-4733-ac7e-70581ac73735" />
+        <range start1="66" end1="66" start2="63" end2="83" changelist="0a87760c-d40d-4733-ac7e-70581ac73735" />
+        <range start1="67" end1="67" start2="84" end2="143" changelist="4b332338-3daa-4eb0-a269-d78b4e2c6e7b" />
+        <range start1="72" end1="72" start2="148" end2="154" changelist="0a87760c-d40d-4733-ac7e-70581ac73735" />
+        <range start1="78" end1="81" start2="160" end2="189" changelist="0a87760c-d40d-4733-ac7e-70581ac73735" />
+        <range start1="82" end1="84" start2="190" end2="195" changelist="0a87760c-d40d-4733-ac7e-70581ac73735" />
+        <range start1="85" end1="87" start2="196" end2="248" changelist="0a87760c-d40d-4733-ac7e-70581ac73735" />
+        <range start1="89" end1="89" start2="250" end2="254" changelist="4b332338-3daa-4eb0-a269-d78b4e2c6e7b" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -41,6 +81,7 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/madss/Desktop/Materiale - Datamatiker/Programering/IntelliJ/Marios/src/Statistics.java",
@@ -49,17 +90,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,6 +110,8 @@
       <workItem from="1713859205870" duration="9000" />
       <workItem from="1713950995567" duration="15000" />
       <workItem from="1713951017648" duration="401000" />
+      <workItem from="1714381782890" duration="639000" />
+      <workItem from="1714382975126" duration="9934000" />
     </task>
     <task id="LOCAL-00001" summary="Added Vehicle Class">
       <option name="closed" value="true" />
@@ -117,7 +153,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713859015884</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added customers arraylist and new rental class">
+      <option name="closed" value="true" />
+      <created>1714381733161</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714381733161</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added customers arraylist and new rental class">
+      <option name="closed" value="true" />
+      <created>1714381900809</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714381900809</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +180,7 @@
     <MESSAGE value="Added Vehicle Class and luxery class" />
     <MESSAGE value="Added all classes" />
     <MESSAGE value="Added fiels and constructers to all vehicle classes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added fiels and constructers to all vehicle classes." />
+    <MESSAGE value="added customers arraylist and new rental class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added customers arraylist and new rental class" />
   </component>
 </project>
