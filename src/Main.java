@@ -1,10 +1,13 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class Main {
     public static ArrayList<Vehicle> cars = new ArrayList<Vehicle>();
     public static ArrayList<Rental> customers = new ArrayList<Rental>();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
         Scanner scan = new Scanner(System.in);
         boolean running = true;
 
@@ -22,7 +25,7 @@ public class Main {
 
 
 
-            switch (choice) {
+            switch (choice)  {
                 case 1:
                     createCar(scan); // Call createCar method from main object
                     break;
@@ -33,7 +36,7 @@ public class Main {
                     //createRental(scan);
                     break;
                 case 4:
-                    //printCarsList();
+                    printCarsList();
                     break;
                 case 5:
                     //printCustomersList();
@@ -62,5 +65,49 @@ public class Main {
             System.out.println(car.getBrand());
 
         }
+    }
+
+    public static void printCarsList ()  throws FileNotFoundException {
+            Scanner outPrintCars = new Scanner(new File("src/Cars"));
+
+            while (outPrintCars.hasNextLine()) {
+                String line = outPrintCars.nextLine();
+                Scanner scanLine = new Scanner(line);
+                String brand = scanLine.next();
+                String model = scanLine.next();
+                String fuelType = scanLine.next();
+                int regNumber = scanLine.nextInt();
+                String yAndM = scanLine.next();
+                int odometer = scanLine.nextInt();
+                String gear = scanLine.next();
+                int seats = scanLine.nextInt();
+                String aircon = scanLine.next();
+                String cruise = scanLine.next();
+                int horsePower = scanLine.nextInt();
+                String spoiler = scanLine.next();
+                int ccm = scanLine.nextInt();
+                int trunk = scanLine.nextInt();
+                System.out.println();
+                System.out.printf("""
+                        Brand:                            %s
+                        Model:                            %s
+                        Fuel type:                        %s
+                        Registration number:              %d
+                        Year/Month of first registration: %s
+                        Odometer:                         %d
+                        M / A gear:                       %s
+                        Number of seats:                  %d
+                        Aircon:                           %s
+                        Cruise control:                   %s
+                        Horsepower:                       %d
+                        Spoiler:                          %s
+                        Ccm:                              %d
+                        Trunk:                            %d liters\n""",
+                        brand, model, fuelType, regNumber, yAndM, odometer, gear,
+                        seats, aircon, cruise, horsePower, spoiler, ccm, trunk);
+
+                System.out.println();
+            }
+
     }
 }
