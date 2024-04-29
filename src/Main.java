@@ -65,7 +65,7 @@ public class Main {
             String dqwdw = "du dum";
             writeToFile.write(dqwdw);
 
-        /*System.out.println("Enter brand");
+        System.out.println("Enter brand");
         String brand = scan.next();
         System.out.println("Enter model");
         String model = scan.next();
